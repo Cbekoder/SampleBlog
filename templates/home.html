@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <div class="row navbar">
-            <div class="col-12 col-md-6 col-sm-6 navbar-icon"><a href="/">Bek's Blog</a></div>
+            <div class="col-12 col-md-6 col-sm-6 navbar-icon"><a href="/">Cbekoder's Blog</a></div>
             <div class="col-12 col-md-6 col-sm-6 navbar-link">
                 <div><a href="/about/">About</a></div>
                 <div><a href="/blog/">Blog</a></div>
@@ -21,20 +21,20 @@
         </div>
         <div class="row header">
             <div class="col-12 col-md-3 col-sm-12 header-img">
-                <img src="/photo/boy.jpg" alt="">
+                <img src="{% static 'my_logo.jpg' %}" alt="my photo">
             </div>
             <div class="col-12 col-md-9 col-sm-12 header-text">
-                <h1>Bek Pulatov</h1>
+                <h1>Cbekoder</h1>
                 <p>Software Engineer</p>
-                <a href="#"><img src="../photo/youtube.png" alt=""></a>
-                <a href="#"><img src="../photo/twitter.png" alt=""></a>
-                <a href="#"><img src="../photo/github.png" alt=""></a>
-                <a href="#"><img src="../photo/in.png" alt=""></a>
+                <a href="https://www.youtube.com/@CbekoderKhalid"><img src="{% static 'youtube.png' %}" alt=""></a>
+                <a href="https://twitter.com/cbekoder"><img src="{% static 'twitter.png' %}" alt=""></a>
+                <a href="https://github.com/Cbekoder"><img src="{% static 'github.png' %}" alt=""></a>
+                <a href="https://www.linkedin.com/in/cbekoder"><img src="{% static 'in.png' %}" alt=""></a>
             </div>
             <div class="col-12 col-md-12 col-sm-12 header-btn">
-                <p>I write about non-technical stuff in the technical world</p>
-                <a class="btn-1" href="/blog">Blog</a>
-                <a class="btn-2" href="/about">About</a>
+                <p>I write about non-technical stuff in the technical world.</p>
+                <a class="btn-1" href="/blog">Read Blog</a>
+                <a class="btn-2" href="/about">About Me</a>
             </div>
             <div class="row footer">
                 <div class="col-12">
@@ -42,6 +42,5 @@
                 </div>
             </div>
         </div>
-    </div>
 </body>
 </html>
